@@ -26,9 +26,13 @@ nav a:hover {
 }
 
 .textContainer h1, p {
-    margin: 0.5rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.textContainer h3 {
+    margin: 0;
 }
 
 .textContainer span {
-    font-weight: bold;
+    font-weight: normal;
 }
