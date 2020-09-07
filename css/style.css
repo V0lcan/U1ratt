@@ -5,17 +5,6 @@ html, body {
     overflow-x: hidden;
 }
 
-.textContainer {
-    padding-top: 3rem;
-}
-
-.textContainer img {
-    width: 90%;
-    height: auto;
-    display: block;
-    margin: 0 auto 0 auto;
-}
-
 nav {
     top: 0;
     left: 0;
@@ -36,6 +25,21 @@ nav a {
 
 nav a:hover {
     color: rgb(255, 228, 196);
+}
+
+.textContainer {
+    padding-top: 3rem;
+}
+
+.textContainer span {
+    font-weight: normal;
+}
+
+.textContainer img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto 0 auto;
 }
 
 h1, h3 {
