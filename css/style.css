@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 228, 196);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    height: 3rem;
+    position: fixed;
+}
+
+nav a {
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: rgb(255, 228, 196);
+}
+
+h1, h3 {
+    margin: 1rem 0 0 0.5rem;
+}
+
+p {
+    margin: 0 0 0 0.5rem;
+}
+
+.imgbr {
+    height: 8rem;
+    background: rgb(255,228,196);
+    background: linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 65%, rgba(255,228,196,1) 100%);
+}
+
+.imgbr img {
+    margin-top: 1.5rem;
+}
+
+footer {
+    background-color: gray;
+    height: auto;
+    color: white;
+    text-align: center;
+    padding: 0.3rem;
+}
