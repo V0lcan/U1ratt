@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Delar av CSS</title>
+</head>
+<body>
+
+    <nav>
+       <a href="index.html">Del 1</a>
+       <a href="page2.html">Del 2</a>
+       <a href="page3.html">Del 3</a>
+    </nav>
+
+    <br><br><br>
+
+    <div class="cContainer">
+        <h3>CSS</h3>
+        <h4>Vad är en regel i CSS?</h4>
+        <p>En regel i CSS är en eller flera CSS egenskaper som kopplas till ett eller flera HTML element, klasser eller id.</p><br>
+        <p>Exempel på en css regel:</p>
+        <p class="kod" style="padding: 0.5rem;">
+            <span style="color: rgb(211, 140, 8)">div</span> <span style="color: gray;">{</span><br>
+                <span style="color: rgb(0, 201, 201); padding-left: 1rem;">height</span><span style="color: white;">:</span> <span style="color: rgb(157, 196, 100);">10rem</span> <span class="kod">!important</span><span style="color: white;">;</span><br>
+                <span style="color: rgb(0, 201, 201); padding-left: 1rem;">width</span><span style="color: white;">:</span> <span style="color: rgb(157, 196, 100);">20rem</span><span style="color: white;">;</span><br>
+            <span style="color: gray;">}</span>
+        </p><br>
+
+        <h4>Vad menas med kaskad i CSS?</h4>
+        <p>Kaskad syftar på det att i CSS finns det regler för hur innehållet i din .css fil ska prioriteras. 
+           <br> Din css prioriteras på det här sättet:
+           <ol>
+               <li>Regler märkta med <span class="kod">!important</span></li>
+               <li><span class="kod" style="color: rgb(211, 140, 8)">#id</span></li>
+               <li><span class="kod" style="color: rgb(211, 140, 8)">div.class</span></li>
+               <li><span class="kod" style="color: rgb(211, 140, 8)">div</span></li>
+           </ol>
+        </p>
+    </div><br><br>
+
+    <footer>
+        <p>Skapad av Albin Sandefalk för kursen Webbteknik 1 vid Linnéuniversitetet.</p>
+        <a href="https://www.linkedin.com/in/albin-sandefalk-3a14161a2/">&#60 LinkedIn &#62</a>
+    </footer>
+</body>
+</html>
